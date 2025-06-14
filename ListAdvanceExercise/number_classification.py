@@ -1,0 +1,10 @@
+numbers = list(map(int, input().split(', ')))
+positive = ', '.join(map(str,[num for num in numbers if num >= 0]))
+negative = ', '.join(map(str,[num for num in numbers if num < 0]))
+even = ', '.join(map(str,[num for num in numbers if num % 2 == 0]))
+odd = ', '.join(map(str,[num for num in numbers if num % 2 != 0]))
+
+print(f'Positive: {positive}')
+print(f'Negative: {negative}')
+print(f'Even: {even}')
+print(f'Odd: {odd}')
