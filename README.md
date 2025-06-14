@@ -1,2 +1,2 @@
 # ProgrammingFundamentalsWithPython-SoftUni
-Exercises from the course "Programming Fundamentals with Python".
+Exercises from the course "Programming Fundamentals with Python" - SoftUni.
